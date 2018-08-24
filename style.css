@@ -1,0 +1,68 @@
+
+* html body {
+    margin: 0%;
+    padding: 0%;
+} 
+body{
+    text-align: center;
+    font-family: 'Akronim';
+    font-size: 40px;
+}
+.homeList {
+    color:#ad418f;
+}
+h1{
+    color: #ad418f;
+}
+.content{
+    z-index: 100;
+    bottom: 0;
+    text-align: center;
+}
+.mainPhoto {
+    width: 320px;
+    height: 320px;
+    border-radius: 90px;
+    box-shadow: 5px 5px 5px #fbfffc;
+}
+#myVideo {
+    z-index: -1;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+li {
+    text-align: center;
+    margin-right: 15px;
+}
+a {
+    text-decoration: none;
+    float: left;
+    color: unset;
+}
+img {
+    width: 220px;
+    height: 220px;
+    margin: 20px;
+    border-radius: 25px;
+}
+.gallery {
+    padding-top: 100px;
+    box-sizing: border-box;
+    height: 100vh;
+    background-image: url(bild/stars.jpg);
+    overflow: hidden;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+}
+.list {
+    padding-top: 100px;
+}
